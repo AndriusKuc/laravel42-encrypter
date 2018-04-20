@@ -2,7 +2,6 @@
   "name": "AndriusKuc/laravel42-encrypter",
   "type": "library",
   "config": {
-    "preferred-install": "dist",
     "bin-dir": "bin",
     "process-timeout": 10000,
     "github-protocols": ["https"]
@@ -17,11 +16,6 @@
   "autoload": {
     "psr-4": {
       "AndriusKuc\\Encryption\\": "src/AndriusKuc/Encryption/"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
     }
   }
 }
