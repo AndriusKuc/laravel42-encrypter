@@ -1,6 +1,5 @@
 {
   "name": "AndriusKuc/laravel42-encrypter",
-  "type": "library",
   "config": {
     "bin-dir": "bin",
     "process-timeout": 10000,
@@ -17,5 +16,6 @@
     "psr-4": {
       "AndriusKuc\\Encryption\\": "src/AndriusKuc/Encryption/"
     }
-  }
+  },
+  "minimum-stability": "stable"
 }
